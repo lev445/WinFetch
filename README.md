@@ -13,7 +13,7 @@ A. Manual
 [ Warning: If you start script first time, use 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser' ]
 
 B. Choco
-1. Type "choco install winfetch"
+1. Type "choco install winfetch-cli"
 
 #### License:
 Use MIT License. Open file LICENSE for read.
