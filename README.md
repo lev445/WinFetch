@@ -15,5 +15,5 @@ A. 📚 Manual
 B. 🍫 Choco
 1. Type "choco install winfetch-cli"
 
-#### 📃 License:
+# 📃 License:
 Use MIT License. Open file LICENSE for read.
