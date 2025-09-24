@@ -12,6 +12,20 @@ A. 📚 Manual
 2. See for paragraph "Usage"
 [ Warning: If you start script first time, use 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser' ]
 
+### 🎨 Functional:
+
+[ *Will determine User
+Will determine OS
+Will determine Arch
+Will determine Windows version
+Will determine Uptime
+Will determine RAM
+Will determine CPU
+Will determine GPU
+Will determine BIOS version
+Will determine IP
+Will determine Public IP* ]
+
 B. 🍫 Choco
 1. Type "choco install winfetch-cli"
 
