@@ -72,3 +72,4 @@ try {
 } catch {
     Write-Host "Failed to fetch: Check Internet Connection! Error code: [ 678 ]" -ForegroundColor Red
 }
+Write-Host "Github: https://github.com/lev445/WinFetch"
