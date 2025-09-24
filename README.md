@@ -12,6 +12,10 @@ A. 📚 Manual
 2. See for paragraph "Usage"
 [ Warning: If you start script first time, use 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser' ]
 
+B. 🍫 Choco
+1. Type "choco install winfetch-cli"
+2. Type in Windows Terminal/Powershell "winfetch"
+
 ### 🎨 Functional:
 
 [ *Will determine User,
@@ -25,9 +29,6 @@ Will determine GPU,
 Will determine BIOS version,
 Will determine IP,
 Will determine Public IP.* ]
-
-B. 🍫 Choco
-1. Type "choco install winfetch-cli"
 
 # 📃 License:
 Use MIT License. Open file LICENSE for read.
