@@ -14,17 +14,17 @@ A. 📚 Manual
 
 ### 🎨 Functional:
 
-[ *Will determine User
-Will determine OS
-Will determine Arch
-Will determine Windows version
-Will determine Uptime
-Will determine RAM
-Will determine CPU
-Will determine GPU
-Will determine BIOS version
-Will determine IP
-Will determine Public IP* ]
+[ *Will determine User,
+Will determine OS,
+Will determine Arch,
+Will determine Windows version,
+Will determine Uptime,
+Will determine RAM,
+Will determine CPU,
+Will determine GPU,
+Will determine BIOS version,
+Will determine IP,
+Will determine Public IP.* ]
 
 B. 🍫 Choco
 1. Type "choco install winfetch-cli"
