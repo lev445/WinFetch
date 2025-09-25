@@ -30,5 +30,8 @@ Will determine BIOS version,
 Will determine IP,
 Will determine Public IP.* ]
 
+#### 🎃 Themes repository:
+https://github.com/lev445/winfetch-themes
+
 # 📃 License:
 Use MIT License. Open file LICENSE for read.
