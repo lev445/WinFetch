@@ -20,6 +20,7 @@ $ram = [math]::Round((Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory 
 $gpus = (Get-CimInstance Win32_VideoController).Name
 $gpu = $gpus -join ", "
 $bios = (Get-CimInstance Win32_BIOS).SMBIOSBIOSVersion
+$shell = if ($psISE) { "PowerShell ISE" } elseif ($env:WT_SESSION) { "Windows Terminal" } else { "Console" }
 
 
 # function: Shop
@@ -234,6 +235,8 @@ $osVersion = (Get-CimInstance Win32_OperatingSystem).Version
 Write-Host "${Indent}Windows version: $osVersion"
 $uptime = (Get-Date) - (Get-CimInstance Win32_OperatingSystem).LastBootUpTime
 Write-Host "${Indent}Uptime: $($uptime.Days)d $($uptime.Hours)h $($uptime.Minutes)m"
+Write-Host "${Indent}Shell: $shell"
+Write-Host "${Indent}PowerShell: $powershellVersion"
 
 Write-Host "${Indent}RAM: ${ram} GB"
 Write-Host "${Indent}CPU: $cpu"
@@ -247,13 +250,13 @@ $ip = (Get-NetIPAddress -AddressFamily IPv4 -ErrorAction SilentlyContinue |
        Select-Object -First 1).IPAddress
 
 if ($ip) {
-    Write-Host "${Indent}IP:       "
+    Write-Host "${Indent}IP: $ip"
 } else {
     Write-Host "${Indent}IP:       [ Not found ]"
 }
 try {
     $publicIp = Invoke-RestMethod -Uri "https://api.ipify.org" -UseBasicParsing -TimeoutSec 3
-    Write-Host "${Indent}Public IP: "
+    Write-Host "${Indent}Public IP: $publicIp"
 } catch {
     Write-Host "${Indent}Failed to fetch public IP. Check internet connection! Error code: [ 678 ]" -ForegroundColor Red
 }
