@@ -4,5 +4,7 @@
 + THEMES + SHOP
 + CLEAR
 + SAFEMODE
++ HELP MENU
++ FLMAN MENU (analogue command HELP)
 
 
