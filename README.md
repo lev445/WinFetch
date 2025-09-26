@@ -5,8 +5,7 @@ System information how linux (neofetch, fastfetch), but for windows!
 ![WinFetch Logo](diskette.png)
 
 ## 🎈 Usage:
-Type Winfetch (on powershell/windows-terminal not ISE!) if you install from choco
-Open file WinFetch.ps1 (type in powershell/windows-terminal: ./WinFetch.ps1)
+Type Winfetch (on powershell/windows-terminal not ISE!) Type to start program: ./WinFetch.ps1)
 
 ### 🍕 Installation:
 A. 📚 Manual
