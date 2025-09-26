@@ -2,7 +2,7 @@
 System information how linux (neofetch, fastfetch), but for windows!
 [ Warning: IN ISE PROGRAM IS WORK, BUT HAVE BUGS. ]
 
-![WinFetch Logo](assets/diskette.png)
+![WinFetch Logo](diskette.png)
 
 ## 🎈 Usage:
 Type Winfetch (on powershell/windows-terminal not ISE!) if you install from choco
