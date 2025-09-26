@@ -29,9 +29,11 @@ Will determine IP,
 Will determine Public IP, themes, shop, SafeMode, Clear, FlMan, Help* ]
 
 # 🎥 Gallery 
-![WinFetch output](screen.png)
+
+
 
 > The screenshot has been edited because it contains confidential information. In reality, WinFetch records almost complete information about the PC.
+> For example, command: winfetch -Theme xbox -Clear
 
 
 #### 🎃 Themes repository:
