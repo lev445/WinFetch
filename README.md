@@ -12,10 +12,6 @@ A. 📚 Manual
 2. See for paragraph "Usage"
 [ Warning: If you start script first time, use 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser' ]
 
-B. 🍫 Choco
-1. Type "choco install winfetch-cli"
-2. Type in Windows Terminal/Powershell "winfetch"
-
 ### 🎨 Functional:
 
 [ *Will determine User,
@@ -28,7 +24,7 @@ Will determine CPU,
 Will determine GPU,
 Will determine BIOS version,
 Will determine IP,
-Will determine Public IP.* ]
+Will determine Public IP, themes, shop, SafeMode, Clear, FlMan, Help* ]
 
 #### 🎃 Themes repository:
 https://github.com/lev445/winfetch-themes
