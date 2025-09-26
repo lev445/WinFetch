@@ -1,9 +1,8 @@
 # CHANGELOG WINFETCH
 
-+---------------------+
-ADDED:
+## ADDED:
 + THEMES + SHOP
 + CLEAR
 + SAFEMODE
-+---------------------+
+
 
